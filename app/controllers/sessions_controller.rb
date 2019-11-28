@@ -5,6 +5,10 @@ class SessionsController < ApplicationController
       @user = User.new
       render :login
     end
+
+    def welcome
+        #show login buttons
+    end
     
     def create
       # normal create action
